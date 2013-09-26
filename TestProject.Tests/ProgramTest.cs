@@ -12,9 +12,12 @@ namespace TestProject.Tests
     public class ProgramTest
     {
         [Test]
-        public void TestFunction()
+        public void TestCube()
         {
+            int expected = 27;
+            int actual = Program.Cube(3);
 
+            Assert.That(actual, Is.EqualTo(expected));
         }
     }
 }

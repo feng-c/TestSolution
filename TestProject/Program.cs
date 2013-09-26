@@ -23,7 +23,10 @@ namespace TestProject
                         Console.WriteLine("Operation Square");
                         break;
                     case 2:
-                        Console.WriteLine("Operation Cube");
+                        Console.WriteLine("Please input a number :");
+                        int num = Int32.Parse(Console.ReadLine());
+                        Console.WriteLine("The result is : " + Cube(num));
+                        Console.WriteLine();
                         break;
                     case 9:
                         Console.WriteLine("End Program");
@@ -33,6 +36,11 @@ namespace TestProject
                         break;
                 }
             }
+        }
+
+        public static int Cube(int num)
+        {
+            return num * num * num;
         }
     }
 }
