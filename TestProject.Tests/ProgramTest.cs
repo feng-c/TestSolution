@@ -14,10 +14,7 @@ namespace TestProject.Tests
         [Test]
         public void TestFunction()
         {
-            int expected = 25;
-            int actual = Program.Square(5);
 
-            Assert.That(actual, Is.EqualTo(expected));
         }
     }
 }
