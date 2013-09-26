@@ -17,6 +17,7 @@ namespace TestProject.Tests
             int expected = 27;
             int actual = Program.Cube(3);
 
+
             Assert.That(actual, Is.EqualTo(expected));
         }
     }
