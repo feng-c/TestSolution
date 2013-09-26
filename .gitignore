@@ -1,0 +1,26 @@
+#  Packages File  #
+###################
+
+packages/
+
+#   bin / obj     #
+###################
+
+bin/
+obj/
+
+#   Moles Assemblies  #
+#######################
+
+MolesAssemblies/
+
+#      .suo       #
+###################
+
+*.suo
+
+#  .user in Auzre project  #
+############################
+
+*.user
+
